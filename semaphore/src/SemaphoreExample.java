@@ -1,7 +1,7 @@
 import java.util.concurrent.Semaphore;
 
 public class SemaphoreExample extends Thread{ // poderiamos criar uma classe estática dentro da classe SemaphoreExample
-    private static Semaphore semaphore = new Semaphore(4);
+    private static Semaphore semaphore = new Semaphore(1);
     private String threadId;
 
 
@@ -37,9 +37,6 @@ public class SemaphoreExample extends Thread{ // poderiamos criar uma classe est
         }
 
     }
-
-
-
 
 
     public static void main(String[] args) {

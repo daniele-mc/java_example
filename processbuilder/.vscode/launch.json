@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - testeBuilder",
+            "request": "launch",
+            "mainClass": "testeBuilder",
+            "projectName": "processbuilder_a60aef64"
+        }
+    ]
+}

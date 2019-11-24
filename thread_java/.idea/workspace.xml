@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aaafccb4-9895-40b1-aae2-973215f041b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="21621c9b-b2bb-4338-a856-8da2e58d9f96" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../fork_example/out/production/fork_example/ForkClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../fork_example/out/production/fork_example/ForkClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fork_example/src/ForkClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fork_example/src/ForkClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semaphore/out/production/semaphore/META-INF/semaphore.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semaphore/out/production/semaphore/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semaphore/out/production/semaphore/SemaphoreExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../semaphore/out/production/semaphore/SemaphoreExample.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/example_java/META-INF/example_java.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/example_java/SimpleThread$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/example_java/SimpleThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleThread.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,23 +21,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1TZclXicZpulkPJ8bmsbEzmeFLg" />
+  <component name="ProjectId" id="1TnywkxvRRyQEobzmI5DdGb4KG4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -42,17 +42,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SimpleThread">
+  <component name="RunManager">
     <configuration name="SimpleThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SimpleThread" />
-      <module name="example_java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadExample" />
-      <module name="example_java" />
+      <module name="thread_java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -60,7 +53,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SimpleThread" />
-        <item itemvalue="Application.ThreadExample" />
       </list>
     </recent_temporary>
   </component>
@@ -69,15 +61,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="aaafccb4-9895-40b1-aae2-973215f041b9" name="Default Changelist" comment="" />
-      <created>1573671209993</created>
+      <changelist id="21621c9b-b2bb-4338-a856-8da2e58d9f96" name="Default Changelist" comment="" />
+      <created>1574110394197</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573671209993</updated>
-      <workItem from="1573671213128" duration="4165000" />
-      <workItem from="1573675858509" duration="1898000" />
-      <workItem from="1573849112224" duration="599000" />
-      <workItem from="1574099644165" duration="1236000" />
+      <updated>1574110394197</updated>
+      <workItem from="1574110395428" duration="195000" />
     </task>
     <servers />
   </component>
