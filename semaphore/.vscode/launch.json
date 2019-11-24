@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MutexBenchMark",
+            "request": "launch",
+            "mainClass": "MutexBenchMark",
+            "projectName": "semaphore_b986662c"
+        }
+    ]
+}
