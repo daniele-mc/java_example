@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BenchMarkTest",
+            "request": "launch",
+            "mainClass": "BenchMarkTest",
+            "projectName": "memory_mapped_a2ce9f19"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ReadExample",
             "request": "launch",
             "mainClass": "ReadExample",

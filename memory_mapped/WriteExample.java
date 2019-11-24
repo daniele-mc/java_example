@@ -19,7 +19,7 @@ public class WriteExample {
             FileChannel fileChannel = randomAccessFile.getChannel();
 
             // Get direct byte buffer access using channel.map() operation
-            MappedByteBuffer buffer = fileChannel.map(FileChannel.MapMode.READ_WRITE, 0, 4096 * 8 * 8);
+            MappedByteBuffer buffer = fileChannel.map(FileChannel.MapMode.READ_WRITE, 0, 4096 * 8 * 8); // 0 -> posição onde vai começar a mapear os arquivos, e apos isso o tamanho pre definido 
 
             // Write the content using put methods
             buffer.put("Escrevendo em um Buffer de saida".getBytes());
