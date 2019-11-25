@@ -34,31 +34,37 @@ public class ParentTh {
             }
 
             long end = System.currentTimeMillis();
-            System.out.printf("%.3f ms%n", (end - start) / 1000d);                 
+            //System.out.printf("%.3f ms%n", (end - start) / 1000d);                 
         }
         catch (InterruptedException ie){}
                
         // printing matrix A
-        System.out.println(" A Matrix : ");
+       // System.out.println(" A Matrix : ");
         for(row = 0 ; row < 3; row++){
-            for (col = 0 ; col < 2; col++ )
-                System.out.print("  "+ A[row][col]);
-            System.out.println();
+            for (col = 0 ; col < 2; col++ ){
+
+            }
+                // System.out.print("  "+ A[row][col]);
+            // System.out.println();
         }
         // printing matrix B
-        System.out.println(" B Matrix : ");
+        // System.out.println(" B Matrix : ");
         for(row = 0 ; row < 2; row++){
-            for (col = 0 ; col < 3; col++ )
-                System.out.print("  "+ B[row][col]);
-            System.out.println();
+            for (col = 0 ; col < 3; col++ ){
+                
+            }
+                // System.out.print("  "+ B[row][col]);
+            // System.out.println();
         }
                
         // printing resulting matrix C after multiplication
-        System.out.println(" Resulting C Matrix : ");
+        // System.out.println(" Resulting C Matrix : ");
         for(row = 0 ; row < 3; row++){
-            for (col = 0 ; col < 3; col++ )
-                System.out.print("  "+ C[row][col]);                
-            System.out.println();
+            for (col = 0 ; col < 3; col++ ){
+
+            }
+                // System.out.print("  "+ C[row][col]);                
+            // System.out.println();
         }
     }
 }

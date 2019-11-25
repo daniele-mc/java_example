@@ -25,8 +25,8 @@ for process in thrd:
 	process.join()
 	
 end = timeit.default_timer()
-print("Duração: ", (end-start))
+# print("Duração: ", (end-start))
 
-print("A Matrix :", A)
-print("B Matrix :", B)
-print("Resulting C Matrix :", C)
+# print("A Matrix :", A)
+# print("B Matrix :", B)
+# print("Resulting C Matrix :", C)

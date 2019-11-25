@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SimpleThread2",
+            "request": "launch",
+            "mainClass": "SimpleThread2",
+            "projectName": "threads_3b4ad591"
+        }
+    ]
+}

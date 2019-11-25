@@ -11,15 +11,15 @@ public class MutexBenchMark extends Thread { // poderiamos criar uma classe est�
     @Override
     public void run() {
         try {
-            System.out.println(threadId + " Locking...");
+           // System.out.println(threadId + " Locking...");
             semaphore.acquire();
 
             try {
                 for (int i = 0; i < 5; i++) { // vai ficar coisando por 5 segundos
-                    System.out.println(threadId + " está realizando uma ação");
+                    //System.out.println(threadId + " está realizando uma ação");
                 }
             } finally { // caso as ações dentro da thread ocorram corretamente
-                System.out.println("Realeasing " + threadId);
+               // System.out.println("Realeasing " + threadId);
                 semaphore.release();
             }
 
