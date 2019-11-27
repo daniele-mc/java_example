@@ -2,11 +2,15 @@ import java.util.concurrent.*;
 
 public class Fibonacci extends RecursiveTask<Integer> {
 
-   public static void main(String[] args) {
-        int n = Integer.parseInt(args[0]);
-        ForkJoinPool pool = new ForkJoinPool();
- 	 ForkJoinTask<Integer> task = new Fibonacci(n);
-        int result = pool.invoke(task);
+   public static void main(String[] args) {   
+
+     int n = 30;
+     ForkJoinPool pool = new ForkJoinPool();
+     ForkJoinTask<Integer> task = new Fibonacci(n);
+     int result = pool.invoke(task);
+
+     System.out.println("Fibonacci de " + n + " " + result);
+
    }
 
    private final int n;
