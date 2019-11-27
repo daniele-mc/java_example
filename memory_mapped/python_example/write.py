@@ -1,4 +1,4 @@
 import mmap
 
 with open("hello.txt", "wb") as f:
-    f.write(b"sdsadsmaopdasiodhsioahdioashd!\n")
+    f.write(b"Escrevendo em um buffer de saida\n")

@@ -15,7 +15,7 @@ class MutexExample:
         lock.acquire()
         for i in range(0,5):
             print(self.threadid, " Está realizando operações")
-           # time.sleep(1)    
+            time.sleep(1)    
         print("Realsing ", self.threadid)
         lock.release()
 

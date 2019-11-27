@@ -13,9 +13,7 @@ public class SemaphoreExample extends Thread{ // poderiamos criar uma classe est
     public void run() {
         try {
             System.out.println(threadId + " Locking...");
-            System.out.println("Avalible Permits: " + semaphore.availablePermits());
             semaphore.acquire();
-            System.out.println(threadId + " conseguiu a permissão");
 
             try {
                 for(int i=0;i<5;i++){ // vai ficar coisando por 5 segundos
@@ -26,10 +24,7 @@ public class SemaphoreExample extends Thread{ // poderiamos criar uma classe est
             finally { // caso as ações dentro da thread ocorram corretamente
                 System.out.println("Realeasing " + threadId);
                 semaphore.release();
-                System.out.println("Semáforo agora permite " + semaphore.availablePermits() + " threads");
             }
-
-
 
         }
         catch (InterruptedException e) {

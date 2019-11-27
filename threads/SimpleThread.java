@@ -12,9 +12,9 @@ public class SimpleThread {
             System.out.println("Sou o processo principal de PID: " + pid);
         }
 
-
-
+    
     }
+
 
 
     private static Runnable runnable = new Runnable() {

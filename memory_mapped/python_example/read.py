@@ -1,6 +1,5 @@
 import mmap
 
-
 with open("hello.txt", "r+b") as f:
     # memory-map the file, size 0 means whole file
     mm = mmap.mmap(f.fileno(), 0)

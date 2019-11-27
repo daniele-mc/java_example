@@ -14,12 +14,30 @@ public class SimpleThread2 {
                         e.printStackTrace();
                     }
                 }            
-            
+                
             }
         };
         
+        
+
+
+        Runnable runnable = new Runnable(){
+            @Override
+            public void run() {
+                // Função a rodar na Thread                
+            }
+        };
+
+       
+
+        
+
         thread.start();
         
+        System.out.println(thread.getPriority());
+        
+
+
         while(true){        
             System.out.println("Processo principal");
             Thread.sleep(1000);

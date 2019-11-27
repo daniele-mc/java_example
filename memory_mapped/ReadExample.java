@@ -8,19 +8,16 @@ public class ReadExample {
 
     public static void main(String[] args) throws Exception {
         try (RandomAccessFile file = new RandomAccessFile(new File(bigExcelFile), "r")) {
-            // Get file channel in read-only mode
             FileChannel fileChannel = file.getChannel();
 
             // Get direct byte buffer access using channel.map() operation
             MappedByteBuffer buffer = fileChannel.map(FileChannel.MapMode.READ_ONLY, 0, fileChannel.size());
 
-            // the buffer now reads the file as if it were loaded in memory.
-            System.out.println("Is Lodaded? -> " + buffer.isLoaded()); // prints false
-            System.out.println("Buffer capacity: " + buffer.capacity()); // Get the size based on content size of file
+            System.out.println("Is Lodaded? -> " + buffer.isLoaded()); 
+            System.out.println("Buffer capacity: " + buffer.capacity());
 
-            // You can read the file from this buffer the way you like.
             for (int i = 0; i < buffer.limit(); i++) {
-                System.out.print((char) buffer.get()); // Print the content of file
+                System.out.print((char) buffer.get()); 
             }
             System.out.print("\n");
             
